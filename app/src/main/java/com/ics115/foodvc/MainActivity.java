@@ -1,5 +1,6 @@
 package com.ics115.foodvc;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -14,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     SQLiteDatabase db;
     SQLiteOpenHelper openHelper;
     Cursor cursor;
-    Button _btnLogin;
+    Button _btnLogin, _btnRegister;
     EditText _txtEmail, _txtPass;
 
     @Override
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         _txtEmail=(EditText)findViewById(R.id.email);
         _txtPass=(EditText)findViewById(R.id.password);
         _btnLogin=(Button)findViewById(R.id.btnLogin);
+        _btnRegister=(Button)findViewById(R.id.btnRegister);
+
         openHelper = new DatabaseHelper(this);
         db = openHelper.getReadableDatabase();
         _btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Login error", Toast.LENGTH_SHORT).show();
                     }
                 }
+            }
+        });
+        _btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(intent);
             }
         });
     }
