@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/bg">
     tools:context=".MainActivity">
 
     <EditText
@@ -17,6 +17,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Email address"
+        android:textColorHint="@color/colorAccent"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,6 +31,7 @@
         android:layout_height="wrap_content"
         android:text="FoodVC"
         android:textSize="50dp"
+        android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -46,6 +48,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Password"
+        android:textColorHint="@color/colorAccent"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
