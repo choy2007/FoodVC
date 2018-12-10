@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "148468496397",
+    "firebase_url": "https://foodvc-da13c.firebaseio.com",
+    "project_id": "foodvc-da13c",
+    "storage_bucket": "foodvc-da13c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148468496397:android:7e2c39c11b047779",
+        "android_client_info": {
+          "package_name": "com.ics115.foodvc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148468496397-209pko72n5nl7edorsfo7ecddam54tbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ics115.foodvc",
+            "certificate_hash": "3f67aaedafec1613339f49305620f7b0c3bbaadc"
+          }
+        },
+        {
+          "client_id": "148468496397-pgcsisegl0uo8dg23drmju09llcm9ko9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_W4P4raUZzqttq6lQuG7z7FeojZv2t2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148468496397-pgcsisegl0uo8dg23drmju09llcm9ko9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148468496397:android:91e94fd9291e9ac6",
+        "android_client_info": {
+          "package_name": "com.rozdoum.socialcomponents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148468496397-slfu5k0ege1b1g3u476ahlf0kettcejk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rozdoum.socialcomponents",
+            "certificate_hash": "3f67aaedafec1613339f49305620f7b0c3bbaadc"
+          }
+        },
+        {
+          "client_id": "148468496397-tm0c23cbn3fnc4at75b9f8gc7esjmj94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rozdoum.socialcomponents",
+            "certificate_hash": "9dda2c5ae2fcd463a53d355093f14e0df0b389c5"
+          }
+        },
+        {
+          "client_id": "148468496397-pgcsisegl0uo8dg23drmju09llcm9ko9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_W4P4raUZzqttq6lQuG7z7FeojZv2t2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148468496397-pgcsisegl0uo8dg23drmju09llcm9ko9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
