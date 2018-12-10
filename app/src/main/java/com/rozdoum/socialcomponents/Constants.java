@@ -16,9 +16,7 @@
 
 package com.rozdoum.socialcomponents;
 
-/**
- * Created by alexey on 08.12.16.
- */
+
 
 public class Constants {
 

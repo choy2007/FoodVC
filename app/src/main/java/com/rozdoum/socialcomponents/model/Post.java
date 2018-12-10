@@ -24,9 +24,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by Kristina on 10/28/16.
- */
 
 public class Post implements Serializable, LazyLoading {
 

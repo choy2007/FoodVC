@@ -18,9 +18,6 @@ package com.rozdoum.socialcomponents;
 
 import com.rozdoum.socialcomponents.managers.DatabaseHelper;
 
-/**
- * Created by Kristina on 10/28/16.
- */
 
 public class ApplicationHelper {
 

@@ -18,9 +18,6 @@ package com.rozdoum.socialcomponents.main.editProfile;
 
 import com.rozdoum.socialcomponents.main.pickImageBase.PickImageView;
 
-/**
- * Created by Alexey on 03.05.18.
- */
 
 public interface EditProfileView extends PickImageView {
     void setName(String username);

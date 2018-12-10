@@ -1,8 +1,5 @@
 package com.rozdoum.socialcomponents.model;
 
-/**
- * Created by Alexey on 22.05.18.
- */
 public class FollowingPost {
 
     private String postId;
